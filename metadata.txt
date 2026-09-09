@@ -1,0 +1,19 @@
+[general]
+name=Moval - Actualizar conexiones PostgreSQL Lite
+qgisMinimumVersion=3.10
+description=Actualiza el host y el puerto de las conexiones PostgreSQL que usa el proyecto abierto, y las conexiones guardadas correspondientes.
+version=1.1
+author=Moval Agroingeniería, SL
+email=info@moval.es
+about=Version ligera para uso externo. Muestra las conexiones PostgreSQL que usa el proyecto abierto con su host, puerto y base de datos, y permite escribir el host y el puerto nuevos. Lo que se deja en blanco no se modifica. El cambio se aplica a las capas cargadas y a las conexiones guardadas cuya base de datos coincide.
+icon=icon.png
+homepage=https://www.moval.es
+tracker=https://github.com/moval-agroingenieria
+repository=https://github.com/moval-agroingenieria
+hasProcessingProvider=no
+tags=postgresql,postgres,postgis,connections,conexiones,host,port,puerto,moval
+category=Database
+experimental=False
+deprecated=False
+supportsQt6=True
+server=False

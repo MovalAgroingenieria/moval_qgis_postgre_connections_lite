@@ -1,0 +1,138 @@
+# ============================================================
+# Python
+# ============================================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+pip-wheel-metadata/
+
+# Test / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.mypy_cache/
+.ruff_cache/
+
+# ============================================================
+# QGIS plugin generated files
+# ============================================================
+
+# Compiled Qt resources
+resources.py
+*_resources.py
+
+# Compiled Qt UI files, if generated from .ui files
+ui_*.py
+*_ui.py
+
+# Translation binaries
+*.qm
+
+# Plugin packaging / deployment
+*.zip
+
+# QGIS project backup / temporary files
+*.qgs~
+*.qgz~
+*.qgs.bak
+*.qgz.bak
+
+# QGIS auxiliary files
+*.qgd
+
+# ============================================================
+# GIS temporary / generated files
+# ============================================================
+
+# GDAL / raster auxiliary files
+*.aux.xml
+*.ovr
+
+# ESRI temporary indexes
+*.sbn
+*.sbx
+*.fbn
+*.fbx
+*.ain
+*.aih
+*.atx
+*.ixs
+*.mxs
+
+# Lock / temporary files
+*.lock
+*.lck
+*.tmp
+*.temp
+
+# ============================================================
+# IDEs / editors
+# ============================================================
+
+# VS Code
+.vscode/
+
+# PyCharm / IntelliJ
+.idea/
+*.iml
+
+# Vim
+*.swp
+*.swo
+*~
+
+# ============================================================
+# Operating systems
+# ============================================================
+
+# Linux
+.directory
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+
+# ============================================================
+# Logs
+# ============================================================
+*.log
+
+# ============================================================
+# Local configuration / secrets
+# ============================================================
+.env
+.env.*
+!.env.example
+
+# ============================================================
+# Plugin-specific local directories
+# ============================================================
+
+# Local development / deployment folders
+deploy/
+package/
+tmp/
+temp/
